@@ -2,7 +2,7 @@ from distutils.core import setup, Extension
 
 module1 = Extension('gles',
             sources = ['glesmodule.c','gles_util.c'],
-            libraries = ['gles_cm']
+            libraries = ['libGLES_CM']
             )
 
 setup (name = 'gles',
